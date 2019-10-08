@@ -124,9 +124,6 @@ def play(board)
   winner = winner(board)
   if winner
     puts "Congratulations #{winner}!"
-  if won?(board)
-    winner = current_player(board)
-    puts "Congratulations #{current_player}!"
   elsif draw?(board)
     puts "Cat's Game!"
   end
