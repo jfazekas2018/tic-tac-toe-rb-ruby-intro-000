@@ -79,11 +79,7 @@ def valid_move?(board, index)
   return value.strip == ""
 end
 
-<<<<<<< HEAD
 def move(board, index, token)
-=======
-def move(board, index, token = "X")
->>>>>>> 04b493c963ecb986e535b4037cd229c892761b1d
   board[index] = token
 end
 
